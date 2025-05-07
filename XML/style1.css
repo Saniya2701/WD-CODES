@@ -1,0 +1,26 @@
+book {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  background-color:skyblue;
+}
+
+title {
+  color: darkblue;
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+author {
+  display: block;
+  color: #333;
+  margin-left: 10px;
+}
+
+year, price {
+  display:block;
+  color:lightpink;
+  font-style: italic;
+}

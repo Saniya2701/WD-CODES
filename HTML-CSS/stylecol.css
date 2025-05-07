@@ -1,0 +1,46 @@
+body {
+    background-color:white; 
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 80%;
+    max-width: 600px; /* Limits table width */
+    margin: 50px auto; /* Center the table */
+    border-collapse: collapse; /* Removes double borders */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+th {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 12px;
+    text-transform: uppercase; /* Capitalize headings */
+}
+
+td {
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #4CAF50;
+}
+
+tr:nth-child(even) {
+    background-color: green; 
+}
+
+dl {
+    margin: 0;
+    padding-left: 10px;
+}
+
+dt {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+dd {
+    color: #555;
+    margin: 5px 0;
+}

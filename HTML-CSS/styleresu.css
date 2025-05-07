@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background for better readability */
+    padding: 20px;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    background-color: #ffffff; /* White background for content */
+    border-collapse: collapse; /* Removes gaps between table cells */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for a modern look */
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #87CEEB; /* Sky blue for headings */
+    color: #333; /* Dark text for contrast */
+    font-weight: bold;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #87CEEB;
+}
+
+ul {
+    list-style-type: square; /* Adds square bullets for better look */
+    padding-left: 20px;
+}
+
+tr:hover {
+    background-color: #f0f8ff; /* Light highlight when hovering */
+}
+
+b {
+    color: #2E3A59; /* Darker color for labels */
+}
